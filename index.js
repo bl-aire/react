@@ -1,1 +1,1 @@
-ReactDOM.render(<h1>Blessing, YOU ARE DOING AMAZING!</h1>, document.getElementById("root"))
+ReactDOM.render(<ul><li>Apple</li><li>Oranges</li></ul>, document.getElementById("root"))
