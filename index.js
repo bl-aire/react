@@ -1,11 +1,15 @@
-const page = (
-    <div>
-        <p>This is my content component.</p>
-        <p>This is my footer component.</p>
-    </div>
+const header = (
+    <nav>
+        <h1>Blaire</h1>
+        <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
 )
 
 ReactDOM.render(
-    page, 
+    header, 
     document.getElementById("root")
 )
