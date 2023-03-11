@@ -1,19 +1,11 @@
-function MyContent() {
-    return (
+const page = (
+    <div>
         <p>This is my content component.</p>
-    )
-}
-
-function MyFooter() {
-    return (
         <p>This is my footer component.</p>
-    )
-}
+    </div>
+)
 
 ReactDOM.render(
-    <div>
-        <MyContent />
-        < MyFooter />
-    </div>, 
+    page, 
     document.getElementById("root")
 )
