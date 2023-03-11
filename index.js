@@ -1,4 +1,12 @@
+function MyContent() {
+    return (
+        <p>This is my custom content.</p>
+    )
+}
+
 ReactDOM.render(
-    <ul><li>Apple</li><li>Oranges</li></ul>, 
+    <div>
+        <MyContent />
+    </div>, 
     document.getElementById("root")
 )
