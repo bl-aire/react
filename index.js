@@ -3,7 +3,7 @@ import MyFooter from "./Footer"
 import Content from "./Content"
 
 // Parent
-function Page() {
+function App() {
     return (
         <div>
             <Nav />
@@ -13,5 +13,5 @@ function Page() {
     )
 }
 
-ReactDOM.render(<Page />, document.getElementById("root")
+ReactDOM.render(<App />, document.getElementById("root")
 )
