@@ -2,8 +2,8 @@
 function Nav() {
     return (
         <header>
-            <nav>
-                <img src="./React-icon.svg.png" width="100px" />
+            <nav className="nav">
+                <img src="./React-icon.svg.png" width="70px" />
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
@@ -18,7 +18,7 @@ function Nav() {
 function Content() {
     return (
         <main>
-            <h1>Fun facts about Blessing</h1>
+            <h1 className="title">Fun facts about Blessing</h1>
             <ul>
                 <li>I love coding</li>
                 <li>I love Ice cream</li>
@@ -31,8 +31,8 @@ function Content() {
 // Child
 function MyFooter() {
     return (
-        <footer>
-            <small>I am the footer</small>
+        <footer className="footer">
+            <small>Blaire is learning React framework</small>
         </footer>
     )
 }
