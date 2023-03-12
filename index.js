@@ -11,6 +11,7 @@ function Nav() {
 function Content() {
     return (
         <main>
+            <Nav />
             <h1>Fun facts about Blessing</h1>
             <ul>
                 <li>I love coding</li>
@@ -31,7 +32,6 @@ function MyFooter() {
 
 ReactDOM.render(
     <div>
-        <Nav />
         <Content />
         <MyFooter />
     </div>, 
