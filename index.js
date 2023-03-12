@@ -1,8 +1,10 @@
 function Nav() {
     return (
-        <nav>
-            <img src="./React-icon.svg.png" width="100px" />
-        </nav>
+        <header>
+            <nav>
+                <img src="./React-icon.svg.png" width="60px" />
+            </nav>
+        </header>
     )
 }
 
@@ -19,10 +21,17 @@ function Content() {
     )
 }
 
+function MyFooter() {
+    return (
+        <small>I am the footer</small>
+    )
+}
+
 ReactDOM.render(
     <div>
         <Nav />
         <Content />
+        <MyFooter />
     </div>, 
     document.getElementById("root")
 )
