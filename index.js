@@ -1,3 +1,4 @@
+// Child
 function Nav() {
     return (
         <header>
@@ -8,6 +9,7 @@ function Nav() {
     )
 }
 
+// Child
 function Content() {
     return (
         <main>
@@ -21,6 +23,7 @@ function Content() {
     )
 }
 
+// Child
 function MyFooter() {
     return (
         <footer>
@@ -29,6 +32,7 @@ function MyFooter() {
     )
 }
 
+// Parent
 function Page() {
     return (
         <div>
