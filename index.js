@@ -3,7 +3,12 @@ function Nav() {
     return (
         <header>
             <nav>
-                <img src="./React-icon.svg.png" width="60px" />
+                <img src="./React-icon.svg.png" width="100px" />
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contract</li>
+                </ul>
             </nav>
         </header>
     )
