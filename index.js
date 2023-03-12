@@ -10,20 +10,22 @@ function Nav() {
 
 function Content() {
     return (
-        <div>
+        <main>
             <h1>Fun facts about Blessing</h1>
             <ul>
                 <li>I love coding</li>
                 <li>I love Ice cream</li>
                 <li>I love learning</li>
             </ul>
-        </div>
+        </main>
     )
 }
 
 function MyFooter() {
     return (
-        <small>I am the footer</small>
+        <footer>
+            <small>I am the footer</small>
+        </footer>
     )
 }
 
